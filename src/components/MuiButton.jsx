@@ -100,7 +100,7 @@ const MuiButton = () => {
       </Stack>
       {/* Toggle buttons 
           the toggle button group has the exclusive prop which prevents the group having multiple buttons toggled */}
-      <Stack direction="row">
+      <Stack direction="row" gutterBottom>
         <ToggleButtonGroup
           aria-label="text formatting"
           value={formats}
