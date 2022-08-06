@@ -11,7 +11,7 @@ import {
 
 const MuiCard = () => {
   return (
-    <Box width="300px">
+    <Box width="300px" margin={1}>
       <Card>
         <CardMedia
           component="img"
